@@ -1,0 +1,56 @@
+Project Idea 
+
+- The general purpose of the software.
+  The plan is to develop a social sharing app where users can post photos and comments on food. Allow users to share their food photos, 
+  reviews, recipes, and restaurant experience. Users can share their home-made cuisine, dishes they taste at restaurants, or write detailed 
+  reviews of restaurants with friends or the public. 
+
+- The intended audience of the software.
+  Food lovers: Loves to explore new cuisines, restaurants, and is willing to share personal culinary experiences.
+  Restaurant diners: Willing to share their dining experience at the restaurant and see recommendations from others.
+  Cooking enthusiasts: Loves homemade food, shares homemade recipes, and is open to feedback from others.
+  Insiders: Passionate about checking out new restaurants, sharing in-depth reviews, and connecting with other food lovers through the platform.
+
+- The set of features offered by the software.
+  User Registration & Login:
+    Support email registration or third-party account (e.g., Google, Facebook) login.
+    Provides the function of retrieving passwords.
+  Personal homepage:
+    Users can view their own content, favorite recipes, and restaurants.
+    Edit personal information (profile picture, nickname, bio, etc.).
+  Post Food Photos & Reviews:
+    Users can upload food photos, videos, and add descriptions.
+    Photos can be tagged (homemade, restaurant dishes, etc.).
+    It is allowed to add the location of the restaurant and rate the food or restaurant.
+  Dynamic Pages (Feeds):
+    Users can browse photos and comments on food posted by friends or the general public.
+    Allow users to like, comment, and share dynamic content.
+  Explore:
+    Push restaurants, recipes, and user content based on user interests or recommendation algorithms.
+    Provide popular hashtags, recommended restaurants and other sections.
+    Social Features:
+    Users can follow other users and see what they're up to.
+    Support the function of private messages with friends.
+  Personalized Recommendations:
+    Recommend relevant content to users based on their likes, views, and interactions.
+  Notification system:
+    Notifications are sent when a user receives a comment, like, or private message.
+  Search & Tags:
+    Users can search for food, restaurants, or users by keywords or tags.
+  Geolocation features:
+    Users can see user recommendations for nearby restaurants based on location.
+  Management & Privacy:
+    Users can manage the privacy settings for their posts, choosing Public, Friends Only, or Private mode
+
+- A very brief description of the type of data that would be managed by your software, if applicable.
+  User data: includes the user's personal information (such as avatar, nickname, email, etc.), the user's friend relationship, and the following list.
+  Dynamic content: Food photos, videos, text descriptions and tags uploaded by users, as well as user comments and interactions with the content.
+  Geolocation data: geolocation data used to tag the location of a restaurant or the source of a dish posted by a user.
+  Interactive data: including users' likes, comments, shares, attention and other social interaction data, as well as the content of private messages between users.
+  Recommendation system data: Generate interactive data required by the recommendation model by analyzing users' browsing, liking, and commenting behaviors
+
+
+- Any other information you think is relevant to your project idea.
+
+
+- You may also submit a poster if you have prepared one already. The poster is not required at this point, but will be later in the term.
