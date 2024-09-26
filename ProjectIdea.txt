@@ -3,7 +3,9 @@ Project Idea
 - The general purpose of the software.
   The plan is to develop a social sharing app where users can post photos and comments on food. Allow users to share their food photos, 
   reviews, recipes, and restaurant experience. Users can share their home-made cuisine, dishes they taste at restaurants, or write detailed 
-  reviews of restaurants with friends or the public. 
+  reviews of restaurants with friends or the public. The latter 2 features will be implemented after the basic functionality of users logging in 
+  and creating recipes is done. 
+
 
 - The intended audience of the software.
   Food lovers: Loves to explore new cuisines, restaurants, and is willing to share personal culinary experiences.
@@ -13,8 +15,14 @@ Project Idea
 
 - The set of features offered by the software.
   User Registration & Login:
+    MVP: 
+    Allow users to create a username and password to login to snackmap. They can use these credentials to login and write recipes, and 
+    see other users recipes. 
+
+    If there is time: 
     Support email registration or third-party account (e.g., Google, Facebook) login.
     Provides the function of retrieving passwords.
+  
   Personal homepage:
     Users can view their own content, favorite recipes, and restaurants.
     Edit personal information (profile picture, nickname, bio, etc.).
