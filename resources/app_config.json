@@ -1,0 +1,5 @@
+{
+  "database_path": "resources/database.db",
+  "log_level": "debug",
+  "max_connections": 10
+}
