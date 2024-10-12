@@ -62,3 +62,22 @@ Project Idea
 
 
 - You may also submit a poster if you have prepared one already. The poster is not required at this point, but will be later in the term.
+
+How to install and use sqlite3 for this project:
+
+1. Install sqlite for your OS
+  https://www.tutorialspoint.com/sqlite/sqlite_installation.htm
+2. Add sqlite3 to your PATH variables
+  a. which sqlite3 #see where its stored on your machine
+  b. open your ~/.bashrc file using nano or nvim or whatever you want
+  c. add this to the bottom of that file: export PATH=$PATH:/usr/bin
+  d. save and quit the editor of that file and run: source ~/.bashrc
+  e. type sqlite3 --version to see that it worked
+3. To import sqlite3 into you c++ file: #include <sqlite3.h>
+4. To compile a c++ file that uses sqlite3: 
+
+g++ sqlite_test.cpp -o sqlite_test -lsqlite3
+
+or 
+
+g++ _name of your c++ file_ -o _name of your executable_ -lsqlite3
