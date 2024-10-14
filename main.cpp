@@ -10,6 +10,7 @@ int main() {
     // }
     // std::cout << "Start SnackMap ..." << std::endl;
 
+    // start
     // initialize database
     DatabaseManager& dbManager = DatabaseManager::getInstance();
     dbManager.initializeDatabase();
