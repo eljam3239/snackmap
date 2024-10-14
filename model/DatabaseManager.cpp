@@ -8,7 +8,7 @@ DatabaseManager& DatabaseManager::getInstance() {
     return instance;
 }
 
-// 构造函数：打开 SQLite 数据库连接
+// Constructor: Opens the SQLite database
 DatabaseManager::DatabaseManager() {
     int rc = sqlite3_open("/Users/lyu/Desktop/CISC320Git/snackmap/resources/database.db", &db);
     if (rc) {

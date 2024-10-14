@@ -1,6 +1,10 @@
 #include <iostream>
 #include <sqlite3.h>
 #include <openssl/sha.h>
+#include <iomanip>
+#include <sstream>
+
+
 
 std::string hashPassword(const std::string& password) {
     unsigned char hash[SHA256_DIGEST_LENGTH];
