@@ -38,10 +38,10 @@ class DatabaseManager {
 public:
     static DatabaseManager& getInstance();
     void initializeDatabase();
-
+    sqlite3* getDB(); // get database instance
 private:
     DatabaseManager();
-    ~DatabaseManager();
+    ~DatabaseManager(); // prevent copying
     DatabaseManager(const DatabaseManager&) = delete;
     DatabaseManager& operator=(const DatabaseManager&) = delete;
 

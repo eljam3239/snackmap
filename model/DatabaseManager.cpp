@@ -22,13 +22,19 @@ DatabaseManager::~DatabaseManager() {
     sqlite3_close(db);
 }
 
+sqlite3* DatabaseManager::getDB() {
+    return db;
+}
+
 // initialize database ->create required tables
 void DatabaseManager::initializeDatabase() {
+    cout << "Start initializing database -> create required tables ..." << endl;
     createTables();
 }
 
 // create required tables
 void DatabaseManager::createTables() {
+    cout << "Start creating UserTables ..." << endl;
     const char* createUserTable = R"(
         CREATE TABLE IF NOT EXISTS User (
             User_id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -38,7 +44,8 @@ void DatabaseManager::createTables() {
             Created_at DATETIME DEFAULT CURRENT_TIMESTAMP
         );
     )";
-
+    cout << "Start creating ProfileTable ..." << endl;
+    //
     const char* createProfileTable = R"(
         CREATE TABLE IF NOT EXISTS ProfileTable (
             Profile_id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -50,7 +57,7 @@ void DatabaseManager::createTables() {
             FOREIGN KEY (User_id) REFERENCES User (User_id)
         );
     )";
-
+    cout << "Start creating PostsTable ... " << endl;
     const char* createPostsTable = R"(
         CREATE TABLE IF NOT EXISTS Posts (
             Post_id INTEGER PRIMARY KEY AUTOINCREMENT,
