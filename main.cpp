@@ -2,6 +2,7 @@
 #include <sqlite3.h>
 #include <unistd.h>
 #include "model/DatabaseManager.h"
+#include "controller/UserController.h"
 
 int main() {
     // char cwd[1024]; // record the current working directory
@@ -15,8 +16,11 @@ int main() {
     DatabaseManager& dbManager = DatabaseManager::getInstance();
     dbManager.initializeDatabase();
 
-    std::cout << "Database initialization completed." << std::endl;
+    //std::cout << "Database initialization completed." << std::endl;
 
+    // user controller: input username, password, email and insert into database
+    UserController userController;
+    userController.createUser();
 
     return 0;
 }
