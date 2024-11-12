@@ -5,34 +5,6 @@
 #include <string>
 using namespace std;
 
-// class DatabaseManager {
-// public:
-//     // get DatabaseManager instance
-//     static DatabaseManager& getInstance();
-//
-//     // connect to SQLite database
-//     static bool connect(const std::string& dbPath);
-//
-//     // initialize database, create required tables
-//     bool initDatabase();
-//
-//     // execute SQL query
-//     bool executeQuery(const std::string& query);
-//
-//     // close database connection and free dynamic
-//     void close();
-//
-//
-//
-// private:
-//     DatabaseManager() = default; // 私有构造函数
-//     sqlite3* db;
-//
-//
-//     // 查询回调函数
-//     // static int queryCallback(void* data, int argc, char** argv, char** colName);
-//
-// };
 
 class DatabaseManager {
 public:
