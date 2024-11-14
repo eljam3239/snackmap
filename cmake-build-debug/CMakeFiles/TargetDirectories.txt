@@ -1,0 +1,4 @@
+/Users/lyu/Desktop/CISC320Git/snackmap/cmake-build-debug/CMakeFiles/sqlite3.dir
+/Users/lyu/Desktop/CISC320Git/snackmap/cmake-build-debug/CMakeFiles/snackmap.dir
+/Users/lyu/Desktop/CISC320Git/snackmap/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/lyu/Desktop/CISC320Git/snackmap/cmake-build-debug/CMakeFiles/rebuild_cache.dir

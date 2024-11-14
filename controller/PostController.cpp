@@ -3,6 +3,8 @@
 #include <iostream>
 #include <sqlite3.h>
 
+
+
 std::vector<std::string> PostController::getFriendPosts(int userId) {
     std::vector<std::string> posts;
     sqlite3* db = DatabaseManager::getInstance().getDB();
