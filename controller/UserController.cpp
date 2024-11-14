@@ -5,6 +5,7 @@
 #include "../model/UserModel.h"
 #include <iostream>
 
+
 void UserController::createUser() {
     std::string username, password, email;
 
