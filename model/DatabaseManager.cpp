@@ -45,7 +45,8 @@ void DatabaseManager::createTables() {
         );
     )";
     cout << "Start creating ProfileTable ..." << endl;
-    //
+    //TODO： add foreign key， friend table
+
     const char* createProfileTable = R"(
         CREATE TABLE IF NOT EXISTS ProfileTable (
             Profile_id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -70,6 +71,17 @@ void DatabaseManager::createTables() {
         );
     )";
 
+    //TODO： check link between user and friend
+    // 创建 Friends 表，用于存储用户和好友的关系
+    const char* createFriendsTable = R"(
+        CREATE TABLE IF NOT EXISTS Friends (
+            User_id INTEGER,
+            Friend_id INTEGER,
+            FOREIGN KEY (User_id) REFERENCES User (User_id),
+            FOREIGN KEY (Friend_id) REFERENCES User (User_id)
+        );
+    )";
+
     char* errorMessage = nullptr;
     if (sqlite3_exec(db, createUserTable, nullptr, nullptr, &errorMessage) != SQLITE_OK) {
         std::cerr << "error creating User table: " << errorMessage << std::endl;
@@ -83,6 +95,11 @@ void DatabaseManager::createTables() {
 
     if (sqlite3_exec(db, createPostsTable, nullptr, nullptr, &errorMessage) != SQLITE_OK) {
         std::cerr << "error creating Posts table: " << errorMessage << std::endl;
+        sqlite3_free(errorMessage);
+    }
+
+    if (sqlite3_exec(db, createFriendsTable, nullptr, nullptr, &errorMessage) != SQLITE_OK) {
+        std::cerr << "error creating Friends table " << errorMessage << std::endl;
         sqlite3_free(errorMessage);
     }
 }
