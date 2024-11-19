@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/eljam3239/repos/snackmap/build",
+  "command": "/usr/bin/gcc  -I/home/eljam3239/repos/snackmap/lib -I/home/eljam3239/repos/snackmap/model -g -o CMakeFiles/sqlite3.dir/lib/sqlite3.c.o -c /home/eljam3239/repos/snackmap/lib/sqlite3.c",
+  "file": "/home/eljam3239/repos/snackmap/lib/sqlite3.c",
+  "output": "CMakeFiles/sqlite3.dir/lib/sqlite3.c.o"
+},
+{
+  "directory": "/home/eljam3239/repos/snackmap/build",
+  "command": "/usr/bin/g++  -I/home/eljam3239/repos/snackmap/model -I/home/eljam3239/repos/snackmap/lib -g -std=gnu++14 -o CMakeFiles/snackmap.dir/main.cpp.o -c /home/eljam3239/repos/snackmap/main.cpp",
+  "file": "/home/eljam3239/repos/snackmap/main.cpp",
+  "output": "CMakeFiles/snackmap.dir/main.cpp.o"
+},
+{
+  "directory": "/home/eljam3239/repos/snackmap/build",
+  "command": "/usr/bin/g++  -I/home/eljam3239/repos/snackmap/model -I/home/eljam3239/repos/snackmap/lib -g -std=gnu++14 -o CMakeFiles/snackmap.dir/model/DatabaseManager.cpp.o -c /home/eljam3239/repos/snackmap/model/DatabaseManager.cpp",
+  "file": "/home/eljam3239/repos/snackmap/model/DatabaseManager.cpp",
+  "output": "CMakeFiles/snackmap.dir/model/DatabaseManager.cpp.o"
+},
+{
+  "directory": "/home/eljam3239/repos/snackmap/build",
+  "command": "/usr/bin/g++  -I/home/eljam3239/repos/snackmap/model -I/home/eljam3239/repos/snackmap/lib -g -std=gnu++14 -o CMakeFiles/snackmap.dir/controller/UserController.cpp.o -c /home/eljam3239/repos/snackmap/controller/UserController.cpp",
+  "file": "/home/eljam3239/repos/snackmap/controller/UserController.cpp",
+  "output": "CMakeFiles/snackmap.dir/controller/UserController.cpp.o"
+},
+{
+  "directory": "/home/eljam3239/repos/snackmap/build",
+  "command": "/usr/bin/g++  -I/home/eljam3239/repos/snackmap/model -I/home/eljam3239/repos/snackmap/lib -g -std=gnu++14 -o CMakeFiles/snackmap.dir/model/UserModel.cpp.o -c /home/eljam3239/repos/snackmap/model/UserModel.cpp",
+  "file": "/home/eljam3239/repos/snackmap/model/UserModel.cpp",
+  "output": "CMakeFiles/snackmap.dir/model/UserModel.cpp.o"
+}
+]

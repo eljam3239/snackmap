@@ -1,0 +1,4 @@
+/home/eljam3239/repos/snackmap/build/CMakeFiles/sqlite3.dir
+/home/eljam3239/repos/snackmap/build/CMakeFiles/snackmap.dir
+/home/eljam3239/repos/snackmap/build/CMakeFiles/edit_cache.dir
+/home/eljam3239/repos/snackmap/build/CMakeFiles/rebuild_cache.dir

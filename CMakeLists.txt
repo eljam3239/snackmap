@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 # add sqlite3 library
 add_library(sqlite3 STATIC lib/sqlite3.c)
 # set include directory
-target_include_directories(sqlite3 PUBLIC ${CMAKE_SOURCE_DIR}/libs)
+target_include_directories(sqlite3 PUBLIC ${CMAKE_SOURCE_DIR}/lib)
 # add project source file
 add_executable(snackmap main.cpp
         model/DatabaseManager.cpp
