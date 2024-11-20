@@ -3,7 +3,7 @@
 #include "UserModel.h"
 #include "DatabaseManager.h"
 #include <iostream>
-#include <sqlite3.h>
+#include "../lib/sqlite3.h"
 
 void UserModel::insertUser(const std::string& username, const std::string& password, const std::string& email) {
     sqlite3* db = DatabaseManager::getInstance().getDB();

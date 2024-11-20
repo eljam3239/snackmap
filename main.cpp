@@ -1,5 +1,5 @@
 #include <iostream>
-#include <sqlite3.h>
+#include "lib/sqlite3.h"
 #include <unistd.h>
 #include "model/DatabaseManager.h"
 #include "controller/UserController.h"

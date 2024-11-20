@@ -1,7 +1,7 @@
 #ifndef DATABASEMANAGER_H
 #define DATABASEMANAGER_H
 #include <map>
-#include <sqlite3.h>
+#include "../lib/sqlite3.h"
 #include <string>
 using namespace std;
 

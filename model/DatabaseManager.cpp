@@ -1,5 +1,5 @@
 #include "DatabaseManager.h"
-#include <sqlite3.h>
+#include "../lib/sqlite3.h"
 #include <iostream>
 
 // get the instance of DatabaseManager
