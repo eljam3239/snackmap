@@ -1,5 +1,5 @@
 #include "DatabaseManager.h"
-#include <sqlite3.h>
+#include "../lib/sqlite3.h"
 #include <iostream>
 
 // get the instance of DatabaseManager
@@ -11,7 +11,8 @@ DatabaseManager& DatabaseManager::getInstance() {
 // Constructor: Opens the SQLite database
 DatabaseManager::DatabaseManager() {
     // the database path in config file
-    int rc = sqlite3_open("/Users/lyu/Desktop/CISC320Git/snackmap/resources/database.db", &db);
+    //int rc = sqlite3_open("/Users/lyu/Desktop/CISC320Git/snackmap/resources/database.db", &db);
+    int rc = sqlite3_open("/home/eljam3239/repos/snackmap/resources/database.db", &db);
     if (rc) {
         std::cerr << "can't open database: " << sqlite3_errmsg(db) << std::endl;
     }
