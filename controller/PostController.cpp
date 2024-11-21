@@ -1,5 +1,5 @@
 #include "PostController.h"
-#include "DatabaseManager.h"
+#include "../model/DatabaseManager.h"
 #include <iostream>
 #include <sqlite3.h>
 
