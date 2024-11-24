@@ -97,3 +97,27 @@ int getLikes(int postId) {
 
     return likes;
 }
+
+void likePost(int postId, int userId) {
+    sqlite3* db = DatabaseManager::getInstance().getDB();
+    sqlite3_stmt* stmt;
+
+    const char* sql = "UPDATE Posts SET Likes = Likes + 1 WHERE Post_id = ?;";
+
+    // Prepare the SQL statement
+    if (sqlite3_prepare_v2(db, sql, -1, &stmt, nullptr) != SQLITE_OK) {
+        std::cerr << "Error preparing statement: " << sqlite3_errmsg(db) << std::endl;
+        return;
+    }
+
+    // Bind the Post ID parameter
+    sqlite3_bind_int(stmt, 1, postId);
+
+    // Execute the update
+    if (sqlite3_step(stmt) != SQLITE_DONE) {
+        std::cerr << "Error updating post likes: " << sqlite3_errmsg(db) << std::endl;
+    }
+
+    // Finalize the statement
+    sqlite3_finalize(stmt);
+}
