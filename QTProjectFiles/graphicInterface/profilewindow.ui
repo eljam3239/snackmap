@@ -94,7 +94,7 @@ background-color: yellow;
           </spacer>
          </item>
          <item>
-          <widget class="QPushButton" name="PostsButton">
+          <widget class="QPushButton" name="FriendsButton">
            <property name="minimumSize">
             <size>
              <width>40</width>
@@ -133,7 +133,7 @@ background-color: yellow;
           </spacer>
          </item>
          <item>
-          <widget class="QPushButton" name="FriendsButton">
+          <widget class="QPushButton" name="PostsButton">
            <property name="minimumSize">
             <size>
              <width>40</width>
