@@ -1,0 +1,12 @@
+# ninja log v6
+2	747	1732479853871814167	CMakeFiles/snackmap.dir/controller/UserController.cpp.o	c72109eacafa05cf
+1	823	1732479853871668672	CMakeFiles/snackmap.dir/model/DatabaseManager.cpp.o	b739127fe4fa7de4
+2	827	1732479853872455769	CMakeFiles/snackmap.dir/controller/FriendController.cpp.o	fef4cc799f393725
+3	832	1732479853873433818	CMakeFiles/snackmap.dir/controller/LoginController.cpp.o	979b8b73acfd2c04
+2	837	1732479853871942788	CMakeFiles/snackmap.dir/model/UserModel.cpp.o	6e04ddabe4e79c6a
+3	841	1732479853873039207	CMakeFiles/snackmap.dir/controller/ProfileController.cpp.o	25a5e8d6c85adb4
+1	853	1732479853871479596	CMakeFiles/snackmap.dir/main.cpp.o	82f47fb3abacce1b
+2	870	1732479853872069116	CMakeFiles/snackmap.dir/controller/PostController.cpp.o	827bc030cc3c7b87
+1	2093	1732479853871029487	CMakeFiles/sqlite3.dir/lib/sqlite3.c.o	27e15bdde918d769
+2094	2160	1732479855963807586	libsqlite3.a	966646b2b7dfa02a
+2161	2210	1732479856030717103	snackmap	e8fa940bd718524c
