@@ -23,6 +23,13 @@ int main() {
     dbManager.initializeDatabase();
     std::cout << "Database initialization completed." << std::endl;
 
+    std::cin.ignore(); // 清除输入缓冲区
+    std::string username, password;
+    std::cout << "User name：";
+    std::getline(std::cin, username);
+    std::cout << "Password：";
+    std::getline(std::cin, password);
+
     int choice;
     do {
         std::cout << "\n===== Main Menu =====\n";
