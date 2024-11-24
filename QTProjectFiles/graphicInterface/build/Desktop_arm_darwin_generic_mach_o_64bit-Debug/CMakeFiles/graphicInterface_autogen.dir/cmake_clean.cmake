@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/graphicInterface_autogen"
   "graphicInterface_autogen/include/ui_editprofile.h"
+  "graphicInterface_autogen/include/ui_explorewindow.h"
   "graphicInterface_autogen/include/ui_friendswindow.h"
   "graphicInterface_autogen/include/ui_mainwindow.h"
   "graphicInterface_autogen/include/ui_postswindow.h"

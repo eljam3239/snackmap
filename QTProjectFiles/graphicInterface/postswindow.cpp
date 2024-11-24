@@ -2,6 +2,7 @@
 #include "profilewindow.h"
 #include "ui_postswindow.h"
 #include "friendswindow.h"
+#include "explorewindow.h"
 
 PostsWindow::PostsWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::PostsWindow)
@@ -11,6 +12,7 @@ PostsWindow::PostsWindow(QWidget *parent)
     connect(ui->PostsButton_2, &QPushButton::clicked, this, &PostsWindow::openPostsWindow);
     connect(ui->ProfileButton_2, &QPushButton::clicked, this, &PostsWindow::openProfileWindow);
     connect(ui->FriendsButton_2, &QPushButton::clicked, this, &PostsWindow::openFriendsWindow);
+    connect(ui->exploreButton, &QPushButton::clicked, this, &PostsWindow::openExploreWindow);
 }
 
 PostsWindow::~PostsWindow()
@@ -48,3 +50,14 @@ void PostsWindow::openFriendsWindow()
     // Close the current window
     this->close();
 }
+
+void PostsWindow::openExploreWindow()
+{
+    // Create and show the second window
+    ExploreWindow *exploreWindow = new ExploreWindow();
+    exploreWindow->show();
+
+    // Close the current window
+    this->close();
+}
+

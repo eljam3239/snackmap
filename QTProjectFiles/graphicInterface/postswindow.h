@@ -20,6 +20,8 @@ private:
     void openPostsWindow();
     void openProfileWindow();
     void openFriendsWindow();
+    void openExploreWindow();
 };
+
 
 #endif // POSTSWINDOW_H

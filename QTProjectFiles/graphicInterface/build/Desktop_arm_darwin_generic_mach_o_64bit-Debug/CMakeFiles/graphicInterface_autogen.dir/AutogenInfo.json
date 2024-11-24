@@ -292,45 +292,12 @@
 		"/Users/jackfejer/Qt/6.8.0/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake",
 		"/Users/jackfejer/Qt/6.8.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake",
 		"/Applications/CMake.app/Contents/share/cmake-3.28/Modules/GNUInstallDirs.cmake",
-		"/Users/jackfejer/Qt/6.8.0/macos/lib/cmake/Qt6/macos/Info.plist.app.in",
-		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/ressources.qrc"
+		"/Users/jackfejer/Qt/6.8.0/macos/lib/cmake/Qt6/macos/Info.plist.app.in"
 	],
 	"CMAKE_SOURCE_DIR" : "/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface",
 	"DEP_FILE" : "/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/graphicInterface_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "graphicInterface_autogen/timestamp",
-	"HEADERS" : 
-	[
-		[
-			"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/editprofile.h",
-			"MU",
-			"EWIEGA46WW/moc_editprofile.cpp",
-			null
-		],
-		[
-			"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/friendswindow.h",
-			"MU",
-			"EWIEGA46WW/moc_friendswindow.cpp",
-			null
-		],
-		[
-			"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/mainwindow.h",
-			"MU",
-			"EWIEGA46WW/moc_mainwindow.cpp",
-			null
-		],
-		[
-			"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/postswindow.h",
-			"MU",
-			"EWIEGA46WW/moc_postswindow.cpp",
-			null
-		],
-		[
-			"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/profilewindow.h",
-			"MU",
-			"EWIEGA46WW/moc_profilewindow.cpp",
-			null
-		]
-	],
+	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/graphicInterface_autogen/include",
 	"MOC_COMPILATION_FILE" : "/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/graphicInterface_autogen/mocs_compilation.cpp",
@@ -386,39 +353,7 @@
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 8,
 	"SETTINGS_FILE" : "/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/graphicInterface_autogen.dir/AutogenUsed.txt",
-	"SOURCES" : 
-	[
-		[
-			"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/editprofile.cpp",
-			"MU",
-			null
-		],
-		[
-			"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/friendswindow.cpp",
-			"MU",
-			null
-		],
-		[
-			"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/main.cpp",
-			"MU",
-			null
-		],
-		[
-			"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/mainwindow.cpp",
-			"MU",
-			null
-		],
-		[
-			"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/postswindow.cpp",
-			"MU",
-			null
-		],
-		[
-			"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/profilewindow.cpp",
-			"MU",
-			null
-		]
-	],
+	"SOURCES" : [],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : [],

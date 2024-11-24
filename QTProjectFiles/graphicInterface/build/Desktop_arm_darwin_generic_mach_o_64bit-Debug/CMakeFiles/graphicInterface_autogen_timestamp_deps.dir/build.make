@@ -66,10 +66,10 @@ include CMakeFiles/graphicInterface_autogen_timestamp_deps.dir/compiler_depend.m
 # Include the progress variables for this target.
 include CMakeFiles/graphicInterface_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/graphicInterface_autogen_timestamp_deps: /Users/jackfejer/Qt/6.8.0/macos/libexec/moc
 CMakeFiles/graphicInterface_autogen_timestamp_deps: /Users/jackfejer/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/QtCore
-CMakeFiles/graphicInterface_autogen_timestamp_deps: /Users/jackfejer/Qt/6.8.0/macos/libexec/uic
+CMakeFiles/graphicInterface_autogen_timestamp_deps: /Users/jackfejer/Qt/6.8.0/macos/libexec/moc
 CMakeFiles/graphicInterface_autogen_timestamp_deps: /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
+CMakeFiles/graphicInterface_autogen_timestamp_deps: /Users/jackfejer/Qt/6.8.0/macos/libexec/uic
 
 graphicInterface_autogen_timestamp_deps: CMakeFiles/graphicInterface_autogen_timestamp_deps
 graphicInterface_autogen_timestamp_deps: CMakeFiles/graphicInterface_autogen_timestamp_deps.dir/build.make

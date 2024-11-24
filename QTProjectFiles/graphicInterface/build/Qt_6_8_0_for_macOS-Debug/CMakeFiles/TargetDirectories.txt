@@ -1,0 +1,9 @@
+/Applications/University/CMPE320/snackmap/QTProjectFiles/graphicInterface/build/Qt_6_8_0_for_macOS-Debug/CMakeFiles/graphicInterface.dir
+/Applications/University/CMPE320/snackmap/QTProjectFiles/graphicInterface/build/Qt_6_8_0_for_macOS-Debug/CMakeFiles/edit_cache.dir
+/Applications/University/CMPE320/snackmap/QTProjectFiles/graphicInterface/build/Qt_6_8_0_for_macOS-Debug/CMakeFiles/rebuild_cache.dir
+/Applications/University/CMPE320/snackmap/QTProjectFiles/graphicInterface/build/Qt_6_8_0_for_macOS-Debug/CMakeFiles/list_install_components.dir
+/Applications/University/CMPE320/snackmap/QTProjectFiles/graphicInterface/build/Qt_6_8_0_for_macOS-Debug/CMakeFiles/install.dir
+/Applications/University/CMPE320/snackmap/QTProjectFiles/graphicInterface/build/Qt_6_8_0_for_macOS-Debug/CMakeFiles/install/local.dir
+/Applications/University/CMPE320/snackmap/QTProjectFiles/graphicInterface/build/Qt_6_8_0_for_macOS-Debug/CMakeFiles/install/strip.dir
+/Applications/University/CMPE320/snackmap/QTProjectFiles/graphicInterface/build/Qt_6_8_0_for_macOS-Debug/CMakeFiles/graphicInterface_autogen_timestamp_deps.dir
+/Applications/University/CMPE320/snackmap/QTProjectFiles/graphicInterface/build/Qt_6_8_0_for_macOS-Debug/CMakeFiles/graphicInterface_autogen.dir
