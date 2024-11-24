@@ -3,5 +3,14 @@
         <file>images/friendsIcon.png</file>
         <file>images/profileImage.png</file>
         <file>images/postsImage.png</file>
+        <file>images/thaifood.jpg</file>
+        <file>images/sushi.jpg</file>
+        <file>images/gelato.jpg</file>
+        <file>images/indian.jpg</file>
+        <file>images/pasta.jpg</file>
+        <file>images/pizza.jpg</file>
+        <file>images/ramen.jpg</file>
+        <file>images/soup.jpeg</file>
+        <file>images/tacos.jpg</file>
     </qresource>
 </RCC>
