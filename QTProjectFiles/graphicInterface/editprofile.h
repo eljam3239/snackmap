@@ -17,6 +17,9 @@ public:
 
 private:
     Ui::editprofile *ui;
+    void openPostsWindow();
+    void openProfileWindow();
+    void openFriendsWindow();
 };
 
 #endif // EDITPROFILE_H
