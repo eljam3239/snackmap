@@ -70,3 +70,54 @@ std::vector<std::string> PostController::getUserPosts(int userId) {
 
     return postContents;
 }
+
+int getLikes(int postId) {
+    sqlite3* db = DatabaseManager::getInstance().getDB();
+    sqlite3_stmt* stmt;
+
+    const char* sql = "SELECT Likes FROM Posts WHERE Post_id = ?;";
+
+    // Prepare the SQL statement
+    if (sqlite3_prepare_v2(db, sql, -1, &stmt, nullptr) != SQLITE_OK) {
+        std::cerr << "Error preparing statement: " << sqlite3_errmsg(db) << std::endl;
+        return -1;
+    }
+
+    // Bind the Post ID parameter
+    sqlite3_bind_int(stmt, 1, postId);
+
+    // Execute the query and fetch the result
+    int likes = -1;
+    if (sqlite3_step(stmt) == SQLITE_ROW) {
+        likes = sqlite3_column_int(stmt, 0);
+    }
+
+    // Finalize the statement
+    sqlite3_finalize(stmt);
+
+    return likes;
+}
+
+void likePost(int postId, int userId) {
+    sqlite3* db = DatabaseManager::getInstance().getDB();
+    sqlite3_stmt* stmt;
+
+    const char* sql = "UPDATE Posts SET Likes = Likes + 1 WHERE Post_id = ?;";
+
+    // Prepare the SQL statement
+    if (sqlite3_prepare_v2(db, sql, -1, &stmt, nullptr) != SQLITE_OK) {
+        std::cerr << "Error preparing statement: " << sqlite3_errmsg(db) << std::endl;
+        return;
+    }
+
+    // Bind the Post ID parameter
+    sqlite3_bind_int(stmt, 1, postId);
+
+    // Execute the update
+    if (sqlite3_step(stmt) != SQLITE_DONE) {
+        std::cerr << "Error updating post likes: " << sqlite3_errmsg(db) << std::endl;
+    }
+
+    // Finalize the statement
+    sqlite3_finalize(stmt);
+}

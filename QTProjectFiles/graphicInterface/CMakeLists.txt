@@ -27,6 +27,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         postswindow.h postswindow.cpp postswindow.ui
         profilewindow.h profilewindow.cpp profilewindow.ui
         friendswindow.h friendswindow.cpp friendswindow.ui
+        editprofile.h editprofile.cpp editprofile.ui
         explorewindow.h explorewindow.cpp explorewindow.ui
 
 

@@ -7,7 +7,6 @@
 #include "controller/FriendController.h"
 #include "controller/ProfileController.h"
 
-
 int main() {
     // char cwd[1024]; // record the current working directory
     // if (getcwd(cwd, sizeof(cwd)) != nullptr) {
@@ -112,6 +111,7 @@ int main() {
             case 5: { // New option for viewing user's posts
                 // test1
                 PostController postController;
+                PostModel postModel();
                 int userId;
                 std::cout << "Please enter the User ID: ";
                 std::cin >> userId;
