@@ -20,7 +20,7 @@ std::vector<std::string> PostController::getFriendPosts(int userId) {
 
     // prepare SQL statement
     if (sqlite3_prepare_v2(db, sql, -1, &stmt, nullptr) != SQLITE_OK) {
-        std::cerr << "无法预编译 SQL 语句: " << sqlite3_errmsg(db) << std::endl;
+        std::cerr << "cannot compile SQL: " << sqlite3_errmsg(db) << std::endl;
         return posts;
     }
 

@@ -12,5 +12,9 @@
         <file>images/ramen.jpg</file>
         <file>images/soup.jpeg</file>
         <file>images/tacos.jpg</file>
+        <file>images/foodClipart.png</file>
+        <file>images/map.png</file>
+        <file>images/tierList.png</file>
+        <file>images/tierList2.png</file>
     </qresource>
 </RCC>
