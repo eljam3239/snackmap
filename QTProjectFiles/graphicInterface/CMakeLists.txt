@@ -23,6 +23,12 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(graphicInterface
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        ressources.qrc
+        postswindow.h postswindow.cpp postswindow.ui
+        profilewindow.h profilewindow.cpp profilewindow.ui
+        friendswindow.h friendswindow.cpp friendswindow.ui
+
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET graphicInterface APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

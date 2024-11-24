@@ -19,5 +19,8 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    void openPostsWindow();
+    void openProfileWindow();
+    void openFriendsWindow();
 };
 #endif // MAINWINDOW_H
