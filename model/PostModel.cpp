@@ -66,3 +66,30 @@ void PostModel::printPost(int postId) {
     // Finalize the statement
     sqlite3_finalize(stmt);
 }
+
+std::vector<std::string> PostModel::getUserPosts(int authorId) {
+    std::vector<std::string> postContents;
+
+    std::string sql = "SELECT content FROM Posts WHERE author = ?;";
+    sqlite3_stmt* stmt;
+
+    // Prepare the SQL statement
+    if (sqlite3_prepare_v2(db, sql.c_str(), -1, &stmt, nullptr) != SQLITE_OK) {
+        std::cerr << "Error preparing statement: " << sqlite3_errmsg(db) << std::endl;
+        return postContents;
+    }
+
+    // Bind the author ID parameter
+    sqlite3_bind_int(stmt, 1, authorId);
+
+    // Execute the query and fetch results
+    while (sqlite3_step(stmt) == SQLITE_ROW) {
+        std::string content = reinterpret_cast<const char*>(sqlite3_column_text(stmt, 0));
+        postContents.push_back(content);
+    }
+
+    // Finalize the statement
+    sqlite3_finalize(stmt);
+
+    return postContents;
+}

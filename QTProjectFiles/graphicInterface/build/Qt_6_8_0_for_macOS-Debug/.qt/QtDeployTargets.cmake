@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_graphicInterface_FILE /Applications/University/CMPE320/snackmap/QTProjectFiles/graphicInterface/build/Qt_6_8_0_for_macOS-Debug/graphicInterface.app/Contents/MacOS/graphicInterface)
+set(__QT_DEPLOY_TARGET_graphicInterface_TYPE EXECUTABLE)
