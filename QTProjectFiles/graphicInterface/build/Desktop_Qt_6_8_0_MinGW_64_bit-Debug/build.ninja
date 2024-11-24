@@ -97,6 +97,14 @@ build CMakeFiles/graphicInterface.dir/friendswindow.cpp.obj: CXX_COMPILER__graph
   OBJECT_DIR = CMakeFiles\graphicInterface.dir
   OBJECT_FILE_DIR = CMakeFiles\graphicInterface.dir
 
+build CMakeFiles/graphicInterface.dir/explorewindow.cpp.obj: CXX_COMPILER__graphicInterface_unscanned_Debug C$:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/explorewindow.cpp || cmake_object_order_depends_target_graphicInterface
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\graphicInterface.dir\explorewindow.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/graphicInterface_autogen/include -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\graphicInterface.dir
+  OBJECT_FILE_DIR = CMakeFiles\graphicInterface.dir
+
 build CMakeFiles/graphicInterface.dir/graphicInterface_autogen/EWIEGA46WW/qrc_ressources.cpp.obj: CXX_COMPILER__graphicInterface_unscanned_Debug C$:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/graphicInterface_autogen/EWIEGA46WW/qrc_ressources.cpp || cmake_object_order_depends_target_graphicInterface
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\graphicInterface.dir\graphicInterface_autogen\EWIEGA46WW\qrc_ressources.cpp.obj.d
@@ -113,7 +121,7 @@ build CMakeFiles/graphicInterface.dir/graphicInterface_autogen/EWIEGA46WW/qrc_re
 #############################################
 # Link the executable graphicInterface.exe
 
-build graphicInterface.exe: CXX_EXECUTABLE_LINKER__graphicInterface_Debug CMakeFiles/graphicInterface.dir/graphicInterface_autogen/mocs_compilation.cpp.obj CMakeFiles/graphicInterface.dir/main.cpp.obj CMakeFiles/graphicInterface.dir/mainwindow.cpp.obj CMakeFiles/graphicInterface.dir/postswindow.cpp.obj CMakeFiles/graphicInterface.dir/profilewindow.cpp.obj CMakeFiles/graphicInterface.dir/friendswindow.cpp.obj CMakeFiles/graphicInterface.dir/graphicInterface_autogen/EWIEGA46WW/qrc_ressources.cpp.obj | C$:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.8.0/mingw_64/lib/libQt6EntryPoint.a || graphicInterface_autogen graphicInterface_autogen_timestamp_deps
+build graphicInterface.exe: CXX_EXECUTABLE_LINKER__graphicInterface_Debug CMakeFiles/graphicInterface.dir/graphicInterface_autogen/mocs_compilation.cpp.obj CMakeFiles/graphicInterface.dir/main.cpp.obj CMakeFiles/graphicInterface.dir/mainwindow.cpp.obj CMakeFiles/graphicInterface.dir/postswindow.cpp.obj CMakeFiles/graphicInterface.dir/profilewindow.cpp.obj CMakeFiles/graphicInterface.dir/friendswindow.cpp.obj CMakeFiles/graphicInterface.dir/explorewindow.cpp.obj CMakeFiles/graphicInterface.dir/graphicInterface_autogen/EWIEGA46WW/qrc_ressources.cpp.obj | C$:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.8.0/mingw_64/lib/libQt6EntryPoint.a || graphicInterface_autogen graphicInterface_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a  C:/Qt/6.8.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.8.0/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -200,7 +208,7 @@ build graphicInterface_autogen_timestamp_deps: phony
 #############################################
 # Utility command for graphicInterface_autogen
 
-build graphicInterface_autogen: phony CMakeFiles/graphicInterface_autogen graphicInterface_autogen/include/ui_mainwindow.h graphicInterface_autogen/include/ui_postswindow.h graphicInterface_autogen/include/ui_profilewindow.h graphicInterface_autogen/include/ui_friendswindow.h graphicInterface_autogen/timestamp graphicInterface_autogen/mocs_compilation.cpp graphicInterface_autogen_timestamp_deps
+build graphicInterface_autogen: phony CMakeFiles/graphicInterface_autogen graphicInterface_autogen/include/ui_mainwindow.h graphicInterface_autogen/include/ui_postswindow.h graphicInterface_autogen/include/ui_profilewindow.h graphicInterface_autogen/include/ui_friendswindow.h graphicInterface_autogen/include/ui_explorewindow.h graphicInterface_autogen/timestamp graphicInterface_autogen/mocs_compilation.cpp graphicInterface_autogen_timestamp_deps
 
 
 #############################################
@@ -226,7 +234,7 @@ build graphicInterface_autogen/EWIEGA46WW/qrc_ressources.cpp | ${cmake_ninja_wor
 #############################################
 # Phony custom command for CMakeFiles\graphicInterface_autogen
 
-build CMakeFiles/graphicInterface_autogen graphicInterface_autogen/include/ui_mainwindow.h graphicInterface_autogen/include/ui_postswindow.h graphicInterface_autogen/include/ui_profilewindow.h graphicInterface_autogen/include/ui_friendswindow.h | ${cmake_ninja_workdir}CMakeFiles/graphicInterface_autogen ${cmake_ninja_workdir}graphicInterface_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}graphicInterface_autogen/include/ui_postswindow.h ${cmake_ninja_workdir}graphicInterface_autogen/include/ui_profilewindow.h ${cmake_ninja_workdir}graphicInterface_autogen/include/ui_friendswindow.h: phony graphicInterface_autogen/timestamp || graphicInterface_autogen_timestamp_deps
+build CMakeFiles/graphicInterface_autogen graphicInterface_autogen/include/ui_mainwindow.h graphicInterface_autogen/include/ui_postswindow.h graphicInterface_autogen/include/ui_profilewindow.h graphicInterface_autogen/include/ui_friendswindow.h graphicInterface_autogen/include/ui_explorewindow.h | ${cmake_ninja_workdir}CMakeFiles/graphicInterface_autogen ${cmake_ninja_workdir}graphicInterface_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}graphicInterface_autogen/include/ui_postswindow.h ${cmake_ninja_workdir}graphicInterface_autogen/include/ui_profilewindow.h ${cmake_ninja_workdir}graphicInterface_autogen/include/ui_friendswindow.h ${cmake_ninja_workdir}graphicInterface_autogen/include/ui_explorewindow.h: phony graphicInterface_autogen/timestamp || graphicInterface_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

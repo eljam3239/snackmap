@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>PostsWindow</class>
- <widget class="QMainWindow" name="PostsWindow">
+ <class>ExploreWindow</class>
+ <widget class="QMainWindow" name="ExploreWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -9,12 +9,6 @@
     <width>320</width>
     <height>568</height>
    </rect>
-  </property>
-  <property name="minimumSize">
-   <size>
-    <width>320</width>
-    <height>568</height>
-   </size>
   </property>
   <property name="maximumSize">
    <size>
@@ -26,11 +20,6 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <property name="styleSheet">
-    <string notr="true">#centralwidget{
-background-color: lightgreen;
-}</string>
-   </property>
    <widget class="QWidget" name="verticalLayoutWidget">
     <property name="geometry">
      <rect>
