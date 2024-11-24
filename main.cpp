@@ -10,7 +10,6 @@
 
 
 
-
 int main() {
     // char cwd[1024]; // record the current working directory
     // if (getcwd(cwd, sizeof(cwd)) != nullptr) {
@@ -109,11 +108,12 @@ int main() {
             case 5: { // New option for viewing user's posts
                 // test123
                 PostController postController;
+                PostModel postModel();
                 int userId;
                 std::cout << "Please enter the User ID: ";
                 std::cin >> userId;
 
-                std::vector<std::string> userPosts = postController.getUserPosts(userId);
+                std::vector<std::string> userPosts = postModel.getUserPosts(userId);
                 if (userPosts.empty()) {
                     std::cout << "No posts found for User ID: " << userId << std::endl;
                 } else {
