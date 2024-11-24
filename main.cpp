@@ -6,6 +6,7 @@
 #include "controller/PostController.h"
 #include "controller/FriendController.h"
 #include "controller/ProfileController.h"
+#include "model/PostModel.h"
 
 
 
