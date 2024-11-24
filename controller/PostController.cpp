@@ -10,7 +10,7 @@ std::vector<std::string> PostController::getFriendPosts(int userId) {
     sqlite3* db = DatabaseManager::getInstance().getDB();
     sqlite3_stmt* stmt;
 
-    // SQL search statement
+    // SQL search content
     const char* sql = R"(
         SELECT p.Content
         FROM Posts p
