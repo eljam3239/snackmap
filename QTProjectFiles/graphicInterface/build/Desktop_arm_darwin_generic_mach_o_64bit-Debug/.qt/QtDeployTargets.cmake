@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_graphicInterface_FILE /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/graphicInterface.app/Contents/MacOS/graphicInterface)
+set(__QT_DEPLOY_TARGET_graphicInterface_TYPE EXECUTABLE)

@@ -1,0 +1,28 @@
+{
+	"BUILD_DIR" : "/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/graphicInterface_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface",
+	"CMAKE_SOURCE_DIR" : "/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface",
+	"GENERATOR" : "Unix Makefiles",
+	"INCLUDE_DIR" : "/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/graphicInterface_autogen/include",
+	"INPUTS" : 
+	[
+		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/images/1077035.png",
+		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/images/postsImage.png",
+		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/images/profileImage.png",
+		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/images/language.png",
+		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/images/4104794.png",
+		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/images/friendsIcon.png"
+	],
+	"LOCK_FILE" : "/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/graphicInterface_autogen.dir/AutoRcc_ressources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "ressources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_ressources.cpp",
+	"RCC_EXECUTABLE" : "/Users/jackfejer/Qt/6.8.0/macos/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/graphicInterface_autogen.dir/AutoRcc_ressources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/ressources.qrc",
+	"VERBOSITY" : 0
+}

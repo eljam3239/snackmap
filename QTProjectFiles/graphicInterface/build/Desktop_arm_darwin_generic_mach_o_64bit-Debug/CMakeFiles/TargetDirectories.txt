@@ -1,0 +1,9 @@
+/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/graphicInterface.dir
+/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/edit_cache.dir
+/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/rebuild_cache.dir
+/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/list_install_components.dir
+/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/install.dir
+/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/install/local.dir
+/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/install/strip.dir
+/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/graphicInterface_autogen_timestamp_deps.dir
+/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/graphicInterface_autogen.dir
