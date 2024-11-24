@@ -3,5 +3,9 @@
         <file>images/friendsIcon.png</file>
         <file>images/profileImage.png</file>
         <file>images/postsImage.png</file>
+        <file>images/foodClipart.png</file>
+        <file>images/map.png</file>
+        <file>images/tierList.png</file>
+        <file>images/tierList2.png</file>
     </qresource>
 </RCC>
