@@ -107,41 +107,210 @@ background-color: white;
      </widget>
     </item>
     <item>
-     <spacer name="verticalSpacer">
+     <widget class="QWidget" name="horizontalWidget_3" native="true">
+      <property name="maximumSize">
+       <size>
+        <width>320</width>
+        <height>20</height>
+       </size>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_10">
+       <item>
+        <widget class="QToolButton" name="toolButton">
+         <property name="styleSheet">
+          <string notr="true">   color: Black;               
+    font-size: 14px;            /* Adjust font size */
+</string>
+         </property>
+         <property name="text">
+          <string>Change Picture</string>
+         </property>
+         <property name="toolButtonStyle">
+          <enum>Qt::ToolButtonStyle::ToolButtonTextOnly</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <spacer name="verticalSpacer_7">
       <property name="orientation">
        <enum>Qt::Orientation::Vertical</enum>
       </property>
       <property name="sizeType">
-       <enum>QSizePolicy::Policy::Maximum</enum>
+       <enum>QSizePolicy::Policy::Fixed</enum>
       </property>
       <property name="sizeHint" stdset="0">
        <size>
         <width>20</width>
-        <height>30</height>
+        <height>20</height>
        </size>
       </property>
      </spacer>
     </item>
     <item>
-     <widget class="QFrame" name="Settings">
-      <property name="maximumSize">
-       <size>
-        <width>320</width>
-        <height>200</height>
-       </size>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">
-background-color: white;   
-</string>
-      </property>
-      <property name="frameShape">
-       <enum>QFrame::Shape::NoFrame</enum>
-      </property>
-      <property name="frameShadow">
-       <enum>QFrame::Shadow::Plain</enum>
-      </property>
-     </widget>
+     <layout class="QHBoxLayout" name="horizontalLayout_11">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="maximumSize">
+           <size>
+            <width>320</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">   color: Black;               /* Text color */
+    font-size: 14px;            /* Adjust font size */
+    padding: 1px;   </string>
+          </property>
+          <property name="text">
+           <string>Username</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit">
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">   color: Black;               /* Text color */
+    background-color: white;     /* Background color */
+    border: 1px solid black;    /* Optional border */
+    font-size: 14px;            /* Adjust font size */
+    padding: 1px;   </string>
+          </property>
+          <property name="maxLength">
+           <number>200</number>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="maximumSize">
+           <size>
+            <width>320</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">   color: Black;               /* Text color */
+    font-size: 14px;            /* Adjust font size */
+    padding: 1px;   </string>
+          </property>
+          <property name="text">
+           <string>Email</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_2">
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">   color: Black;               /* Text color */
+    background-color: white;     /* Background color */
+    border: 1px solid black;    /* Optional border */
+    font-size: 14px;            /* Adjust font size */
+    padding: 5px;   </string>
+          </property>
+          <property name="maxLength">
+           <number>200</number>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="maximumSize">
+           <size>
+            <width>320</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">   color: Black;               /* Text color */
+    font-size: 14px;            /* Adjust font size */
+    padding: 1px;   </string>
+          </property>
+          <property name="text">
+           <string>Phone Number</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_3">
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">   color: Black;               /* Text color */
+    background-color: white;     /* Background color */
+    border: 1px solid black;    /* Optional border */
+    font-size: 14px;            /* Adjust font size */
+    padding: 5px;   </string>
+          </property>
+          <property name="maxLength">
+           <number>200</number>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="maximumSize">
+           <size>
+            <width>320</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">   color: Black;               /* Text color */
+    font-size: 14px;            /* Adjust font size */
+    padding: 1px;   </string>
+          </property>
+          <property name="text">
+           <string>Password</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_4">
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">   color: Black;               /* Text color */
+    background-color: white;     /* Background color */
+    border: 1px solid black;    /* Optional border */
+    font-size: 14px;            /* Adjust font size */
+    padding: 5px;   </string>
+          </property>
+          <property name="maxLength">
+           <number>200</number>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
     </item>
     <item>
      <widget class="QGroupBox" name="MenuOptions">
@@ -155,6 +324,9 @@ background-color: white;
       </property>
       <property name="title">
        <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignJustify|Qt::AlignmentFlag::AlignVCenter</set>
       </property>
       <property name="flat">
        <bool>true</bool>

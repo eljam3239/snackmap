@@ -1066,6 +1066,7 @@ CMakeFiles/graphicInterface.dir/main.cpp.o: \
   /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/postswindow.h \
   /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/profilewindow.h \
   /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/friendswindow.h \
+  /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/explorewindow.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QApplication \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qapplication.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qcoreapplication.h \

@@ -451,6 +451,8 @@ graphicInterface_autogen/timestamp: \
 	/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/graphicInterface_autogen/moc_predefs.h \
 	/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/editprofile.cpp \
 	/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/editprofile.h \
+	/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/explorewindow.cpp \
+	/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/explorewindow.h \
 	/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/friendswindow.cpp \
 	/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/friendswindow.h \
 	/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/main.cpp \
@@ -462,6 +464,7 @@ graphicInterface_autogen/timestamp: \
 	/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/profilewindow.h \
 	/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/ressources.qrc \
 	/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/editprofile.ui \
+	/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/explorewindow.ui \
 	/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/friendswindow.ui \
 	/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/mainwindow.ui \
 	/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/postswindow.ui \

@@ -1,8 +1,8 @@
-CMakeFiles/graphicInterface.dir/editprofile.cpp.o: \
-  /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/editprofile.cpp \
-  /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/editprofile.h \
-  /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QWidget \
-  /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qwidget.h \
+CMakeFiles/graphicInterface.dir/explorewindow.cpp.o: \
+  /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/explorewindow.cpp \
+  /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/explorewindow.h \
+  /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QMainWindow \
+  /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qtguiglobal.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qglobal.h \
@@ -542,6 +542,7 @@ CMakeFiles/graphicInterface.dir/editprofile.cpp.o: \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qtguiexports.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qtwidgets-config.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsexports.h \
+  /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qwidget.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qwindowdefs.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qobjectdefs.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qnamespace.h \
@@ -1061,7 +1062,8 @@ CMakeFiles/graphicInterface.dir/editprofile.cpp.o: \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qsizepolicy.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qcursor.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qbitmap.h \
-  /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/graphicInterface_autogen/include/ui_editprofile.h \
+  /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
+  /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/graphicInterface_autogen/include/ui_explorewindow.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtCore.framework/Headers/QVariant \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtGui.framework/Headers/QIcon \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QApplication \
@@ -1092,16 +1094,13 @@ CMakeFiles/graphicInterface.dir/editprofile.cpp.o: \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qiodevice.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qtextdocument.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qurl.h \
-  /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QLineEdit \
-  /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qlineedit.h \
-  /Users/jackfejer/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qtextcursor.h \
-  /Users/jackfejer/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qtextformat.h \
-  /Users/jackfejer/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpen.h \
-  /Users/jackfejer/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qtextoption.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QPushButton \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QSpacerItem \
-  /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QToolButton \
-  /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qtoolbutton.h \
-  /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QVBoxLayout
+  /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QVBoxLayout \
+  /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QWidget \
+  /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/friendswindow.h \
+  /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/mainwindow.h \
+  /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/postswindow.h \
+  /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/profilewindow.h

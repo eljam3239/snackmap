@@ -1063,11 +1063,13 @@ CMakeFiles/graphicInterface.dir/graphicInterface_autogen/mocs_compilation.cpp.o:
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qcursor.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qbitmap.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qtmochelpers.h \
-  /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/graphicInterface_autogen/EWIEGA46WW/moc_friendswindow.cpp \
-  /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/graphicInterface_autogen/EWIEGA46WW/../../../../friendswindow.h \
+  /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/graphicInterface_autogen/EWIEGA46WW/moc_explorewindow.cpp \
+  /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/graphicInterface_autogen/EWIEGA46WW/../../../../explorewindow.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QMainWindow \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
+  /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/graphicInterface_autogen/EWIEGA46WW/moc_friendswindow.cpp \
+  /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/graphicInterface_autogen/EWIEGA46WW/../../../../friendswindow.h \
   /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/graphicInterface_autogen/EWIEGA46WW/moc_mainwindow.cpp \
   /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/graphicInterface_autogen/EWIEGA46WW/../../../../mainwindow.h \
   /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/graphicInterface_autogen/EWIEGA46WW/moc_postswindow.cpp \

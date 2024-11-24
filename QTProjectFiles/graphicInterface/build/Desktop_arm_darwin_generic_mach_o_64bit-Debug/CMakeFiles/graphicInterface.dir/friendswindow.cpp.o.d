@@ -1081,14 +1081,29 @@ CMakeFiles/graphicInterface.dir/friendswindow.cpp.o: \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qinputmethod.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qlocale.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qguiapplication_platform.h \
+  /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QFrame \
+  /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qframe.h \
+  /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QGraphicsView \
+  /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qgraphicsview.h \
+  /Users/jackfejer/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpainter.h \
+  /Users/jackfejer/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qtextoption.h \
+  /Users/jackfejer/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpen.h \
+  /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qscrollarea.h \
+  /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qabstractscrollarea.h \
+  /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qgraphicsscene.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QGroupBox \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qgroupbox.h \
-  /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qframe.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QHBoxLayout \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qboxlayout.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qlayout.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qlayoutitem.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qgridlayout.h \
+  /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QLabel \
+  /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qlabel.h \
+  /Users/jackfejer/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qpicture.h \
+  /Users/jackfejer/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qiodevice.h \
+  /Users/jackfejer/Qt/6.8.0/macos/lib/QtGui.framework/Headers/qtextdocument.h \
+  /Users/jackfejer/Qt/6.8.0/macos/lib/QtCore.framework/Headers/qurl.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QPushButton \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \

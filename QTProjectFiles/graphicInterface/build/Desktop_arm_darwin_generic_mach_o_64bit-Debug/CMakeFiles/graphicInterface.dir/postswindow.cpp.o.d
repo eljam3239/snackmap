@@ -1094,4 +1094,5 @@ CMakeFiles/graphicInterface.dir/postswindow.cpp.o: \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QSpacerItem \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QVBoxLayout \
   /Users/jackfejer/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QWidget \
-  /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/friendswindow.h
+  /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/friendswindow.h \
+  /Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/explorewindow.h

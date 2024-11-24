@@ -8,12 +8,25 @@
 	"INCLUDE_DIR" : "/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/graphicInterface_autogen/include",
 	"INPUTS" : 
 	[
+		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/images/tierList2.png",
+		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/images/thaifood.jpg",
 		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/images/1077035.png",
+		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/images/sushi.jpg",
 		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/images/postsImage.png",
 		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/images/profileImage.png",
+		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/images/foodClipart.png",
+		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/images/gelato.jpg",
+		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/images/pizza.jpg",
+		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/images/tacos.jpg",
+		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/images/ramen.jpg",
+		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/images/tierList.png",
+		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/images/map.png",
 		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/images/language.png",
 		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/images/4104794.png",
-		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/images/friendsIcon.png"
+		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/images/indian.jpg",
+		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/images/friendsIcon.png",
+		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/images/soup.jpeg",
+		"/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/images/pasta.jpg"
 	],
 	"LOCK_FILE" : "/Users/jackfejer/snackmap/snackmap/QTProjectFiles/graphicInterface/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/graphicInterface_autogen.dir/AutoRcc_ressources_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,
