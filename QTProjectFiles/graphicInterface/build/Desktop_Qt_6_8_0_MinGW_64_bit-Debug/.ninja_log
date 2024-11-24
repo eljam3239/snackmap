@@ -1,0 +1,9 @@
+# ninja log v6
+6	779	7539310790654361	graphicInterface_autogen/timestamp	e247d157c5af9c72
+6	779	7539310790654361	graphicInterface_autogen/mocs_compilation.cpp	e247d157c5af9c72
+6	779	7539310790654361	C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/graphicInterface_autogen/timestamp	e247d157c5af9c72
+6	779	7539310790654361	C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/graphicInterface_autogen/mocs_compilation.cpp	e247d157c5af9c72
+796	2724	7539310791645789	CMakeFiles/graphicInterface.dir/main.cpp.obj	443f96a5a89ab913
+790	2824	7539310791645789	CMakeFiles/graphicInterface.dir/graphicInterface_autogen/mocs_compilation.cpp.obj	8003bf1d3d77c4f0
+805	2936	7539310791802558	CMakeFiles/graphicInterface.dir/mainwindow.cpp.obj	f50633f890cdd899
+2936	3244	7539310813164507	graphicInterface.exe	899e87f7105a88b1
