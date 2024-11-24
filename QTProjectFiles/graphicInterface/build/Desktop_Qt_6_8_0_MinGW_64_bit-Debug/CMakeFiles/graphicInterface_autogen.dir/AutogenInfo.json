@@ -267,6 +267,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/editprofile.h",
+			"MU",
+			"EWIEGA46WW/moc_editprofile.cpp",
+			null
+		],
+		[
 			"C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/explorewindow.h",
 			"MU",
 			"EWIEGA46WW/moc_explorewindow.cpp",
@@ -368,6 +374,11 @@
 	"SETTINGS_FILE" : "C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/graphicInterface_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/editprofile.cpp",
+			"MU",
+			null
+		],
 		[
 			"C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/explorewindow.cpp",
 			"MU",
