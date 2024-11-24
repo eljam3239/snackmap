@@ -9,8 +9,12 @@
 	"INCLUDE_DIR" : "C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/graphicInterface_autogen/include",
 	"INPUTS" : 
 	[
+		"C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/images/tierList2.png",
 		"C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/images/postsImage.png",
 		"C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/images/profileImage.png",
+		"C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/images/foodClipart.png",
+		"C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/images/tierList.png",
+		"C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/images/map.png",
 		"C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/images/friendsIcon.png"
 	],
 	"LOCK_FILE" : "C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/graphicInterface_autogen.dir/AutoRcc_ressources_EWIEGA46WW_Lock.lock",
