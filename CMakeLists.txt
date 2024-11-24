@@ -19,6 +19,8 @@ add_executable(snackmap main.cpp
         controller/PostController.cpp
         controller/FriendController.cpp
         controller/FriendController.h
+        controller/ProfileController.h
+        controller/ProfileController.cpp
 
 )
 #componentTesting/loginc.cpp)

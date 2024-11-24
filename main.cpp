@@ -5,14 +5,7 @@
 #include "controller/UserController.h"
 #include "controller/PostController.h"
 #include "controller/FriendController.h"
-
-
-// 写一个菜单让用户选择
-// 1. 创建用户
-// 2. 添加好友
-// 3. 查看好友动态
-// 4. 退出
-
+#include "controller/ProfileController.h"
 
 
 
@@ -36,7 +29,8 @@ int main() {
         std::cout << "1. Create User\n";
         std::cout << "2. View Friend Posts\n";
         std::cout << "3. Add Friend\n";
-        std::cout << "4. Exit\n";
+        std::cout << "4. Edit Profile\n";
+        std::cout << "0. Exit\n";
         std::cout << "Please enter your choice (1-4): ";
         std::cin >> choice;
 
@@ -81,7 +75,29 @@ int main() {
                 }
                 break;
             }
-            case 4:
+            case 4: { // 修改个人资料
+                ProfileController profileController;
+                int userId;
+                std::string name, bio, profilePicture;
+
+                std::cout << "Please enter the user ID: ";
+                std::cin >> userId;
+                std::cin.ignore(); // 清除换行符
+                std::cout << "Please enter a new username:";
+                std::getline(std::cin, name);
+                std::cout << "Please enter a new bio: ";
+                std::getline(std::cin, bio);
+                std::cout << "Please enter a new profile picture path: ";
+                std::getline(std::cin, profilePicture);
+
+                if (profileController.updateProfile(userId, name, bio, profilePicture)) {
+                    std::cout << "Profile updated successfully！" << std::endl;
+                } else {
+                    std::cout << "Update failed, please check whether the user ID exists！" << std::endl;
+                }
+                break;
+            }
+            case 0:
                 std::cout << "Exit SnackMap ..." << std::endl;
             break;
             default:
