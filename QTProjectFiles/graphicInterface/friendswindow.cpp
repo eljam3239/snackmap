@@ -8,9 +8,9 @@ FriendsWindow::FriendsWindow(QWidget *parent)
     , ui(new Ui::FriendsWindow)
 {
     ui->setupUi(this);
-    connect(ui->PostsButton, &QPushButton::clicked, this, &FriendsWindow::openPostsWindow);
-    connect(ui->ProfileButton, &QPushButton::clicked, this, &FriendsWindow::openProfileWindow);
-    connect(ui->FriendsButton, &QPushButton::clicked, this, &FriendsWindow::openFriendsWindow);
+    connect(ui->PostsButton_4, &QPushButton::clicked, this, &FriendsWindow::openPostsWindow);
+    connect(ui->ProfileButton_4, &QPushButton::clicked, this, &FriendsWindow::openProfileWindow);
+    connect(ui->FriendsButton_4, &QPushButton::clicked, this, &FriendsWindow::openFriendsWindow);
 }
 
 FriendsWindow::~FriendsWindow()
