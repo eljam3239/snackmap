@@ -6,9 +6,6 @@
 #include "controller/PostController.h"
 #include "controller/FriendController.h"
 #include "controller/ProfileController.h"
-#include "model/PostModel.h"
-
-
 
 
 int main() {
@@ -23,13 +20,16 @@ int main() {
     DatabaseManager& dbManager = DatabaseManager::getInstance();
     dbManager.initializeDatabase();
     std::cout << "Database initialization completed." << std::endl;
+    // use insert data test
+    dbManager.insertSampleData();
 
-    std::cin.ignore(); // 清除输入缓冲区
-    std::string username, password;
-    std::cout << "User name：";
-    std::getline(std::cin, username);
-    std::cout << "Password：";
-    std::getline(std::cin, password);
+
+    // std::cin.ignore(); // 清除输入缓冲区
+    // std::string username, password;
+    // std::cout << "User name：";
+    // std::getline(std::cin, username);
+    // std::cout << "Password：";
+    // std::getline(std::cin, password);
 
     int choice;
     do {
@@ -44,6 +44,9 @@ int main() {
         std::cin >> choice;
 
         switch (choice) {
+            case 0:
+                std::cout << "Exit SnackMap ..." << std::endl;
+            break;
             case 1:
                 // user controller: input username, password, email and insert into database
                     UserController userController;
@@ -107,7 +110,7 @@ int main() {
                 break;
             }
             case 5: { // New option for viewing user's posts
-                // test123
+                // test1
                 PostController postController;
                 int userId;
                 std::cout << "Please enter the User ID: ";
@@ -124,14 +127,12 @@ int main() {
                 }
                 break;
             }
-            case 0:
-                std::cout << "Exit SnackMap ..." << std::endl;
-            break;
+
             default:
                 std::cout << "Invalid choice, please try again!" << std::endl;
             break;
         }
-    } while (choice != 4);
+    } while (choice != 0);
 
     // user controller: input username, password, email and insert into database
     // UserController userController;

@@ -12,7 +12,7 @@ DatabaseManager& DatabaseManager::getInstance() {
 DatabaseManager::DatabaseManager() {
     // the database path in config file
     //int rc = sqlite3_open("/Users/lyu/Desktop/CISC320Git/snackmap/resources/database.db", &db);
-    int rc = sqlite3_open("/home/eljam3239/repos/snackmap/resources/database.db", &db);
+    int rc = sqlite3_open("/Users/lyu/Desktop/CISC320Git/snackmap/resources/database.db", &db);
     if (rc) {
         std::cerr << "can't open database: " << sqlite3_errmsg(db) << std::endl;
     }
@@ -68,9 +68,28 @@ void DatabaseManager::createTables() {
             Title TEXT,
             Content TEXT,
             Image_path TEXT,
+            Likes INTEGER DEFAULT 0,
             FOREIGN KEY (User_id) REFERENCES User (User_id)
+
         );
     )";
+
+
+
+    // std::cout << "Start creating CommentsTable ... " << std::endl;
+    // const char* createCommentsTable = R"(
+    //     CREATE TABLE IF NOT EXISTS Comments (
+    //         Comment_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    //         Post_id INTEGER,
+    //         User_id INTEGER,
+    //         Content TEXT NOT NULL,
+    //         Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+    //         FOREIGN KEY (Post_id) REFERENCES Posts (Post_id),
+    //         FOREIGN KEY (User_id) REFERENCES User (User_id)
+    //     );
+    // )";
+
+
 
     //TODO： check link between user and friend
     // 创建 Friends 表，用于存储用户和好友的关系
@@ -98,6 +117,12 @@ void DatabaseManager::createTables() {
         std::cerr << "error creating Posts table: " << errorMessage << std::endl;
         sqlite3_free(errorMessage);
     }
+
+    // if (sqlite3_exec(db, createCommentsTable, nullptr, nullptr, &errorMessage) != SQLITE_OK) {
+    //     std::cerr << "Error creating Comments table: " << errorMessage << std::endl;
+    //     sqlite3_free(errorMessage);
+    // }
+
 
     if (sqlite3_exec(db, createFriendsTable, nullptr, nullptr, &errorMessage) != SQLITE_OK) {
         std::cerr << "error creating Friends table " << errorMessage << std::endl;

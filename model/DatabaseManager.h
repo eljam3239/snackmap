@@ -11,6 +11,8 @@ public:
     static DatabaseManager& getInstance();
     void initializeDatabase();
     sqlite3* getDB(); // get database instance
+    void insertSampleData();
+
 private:
     DatabaseManager();
     ~DatabaseManager(); // prevent copying
@@ -19,6 +21,8 @@ private:
 
     sqlite3* db;
     void createTables();
+
+
 };
 
 

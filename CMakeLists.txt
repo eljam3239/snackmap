@@ -23,6 +23,8 @@ add_executable(snackmap main.cpp
         controller/ProfileController.cpp
         controller/LoginController.h
         controller/LoginController.cpp
+        Insert_data_test.cpp
+        model/PostModel.cpp
 
 )
 #componentTesting/loginc.cpp)
