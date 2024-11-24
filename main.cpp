@@ -53,18 +53,31 @@ int main() {
             break;
 
             case 2: {
-                // use PostController to get friend posts
+                // Use PostController to get friend posts
                 PostController postController;
                 int userId1;
                 std::cout << "Please enter your User ID: ";
                 std::cin >> userId1;
 
-                std::vector<std::string> friendPosts = postController.getFriendPosts(userId1);
+                // Fetch friend's posts
+                std::vector<std::vector<std::string>> friendPosts = postController.getFriendPosts(userId1);
 
-                // print friend's post content
-                std::cout << "friend's post content:" << std::endl;
-                for (const auto& post : friendPosts) {
-                    std::cout << post << std::endl;
+                // Check if there are any posts
+                if (friendPosts.empty()) {
+                    std::cout << "No posts found for your friends" << std::endl;
+                } else {
+
+                    // Print each friend's post details
+
+                    std::cout << "Friend's posts:" << std::endl;
+                    std::cout << "----------------------------------" << std::endl;
+                    for (const auto& post : friendPosts) {
+                        // Print all elements in the inner vector (post details) line by line
+                        for (const auto& field : post) {
+                            std::cout << field << std::endl;
+                        }
+                        std::cout << "----------------------------------" << std::endl;
+                    }
                 }
                 break;
             }
