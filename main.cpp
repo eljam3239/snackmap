@@ -113,7 +113,7 @@ int main() {
                 std::cout << "Please enter the User ID: ";
                 std::cin >> userId;
 
-                std::vector<std::string> userPosts = postModel.getUserPosts(userId);
+                std::vector<std::string> userPosts = postController.getUserPosts(userId);
                 if (userPosts.empty()) {
                     std::cout << "No posts found for User ID: " << userId << std::endl;
                 } else {
