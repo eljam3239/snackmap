@@ -37,6 +37,7 @@ int main() {
         std::cout << "2. View Friend Posts\n";
         std::cout << "3. Add Friend\n";
         std::cout << "4. Edit Profile\n";
+        std::cout << "5. View User Posts\n";
         std::cout << "0. Exit\n";
         std::cout << "Please enter your choice (1-4): ";
         std::cin >> choice;
@@ -101,6 +102,24 @@ int main() {
                     std::cout << "Profile updated successfully！" << std::endl;
                 } else {
                     std::cout << "Update failed, please check whether the user ID exists！" << std::endl;
+                }
+                break;
+            }
+            case 5: { // New option for viewing user's posts
+                // test1
+                PostController postController;
+                int userId;
+                std::cout << "Please enter the User ID: ";
+                std::cin >> userId;
+
+                std::vector<std::string> userPosts = postController.getUserPosts(userId);
+                if (userPosts.empty()) {
+                    std::cout << "No posts found for User ID: " << userId << std::endl;
+                } else {
+                    std::cout << "User's post content:" << std::endl;
+                    for (const auto& post : userPosts) {
+                        std::cout << post << std::endl;
+                    }
                 }
                 break;
             }

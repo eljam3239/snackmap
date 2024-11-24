@@ -15,4 +15,5 @@ public:
     void createPost(const std::string& content, const std::string& title, 
         int userId, const std::string& postTime, const std::string& author);
     void printPost(const int postId);
+    std::vector<std::string> getUserPosts(int userId);
 };
