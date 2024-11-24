@@ -40,3 +40,33 @@ std::vector<std::string> PostController::getFriendPosts(int userId) {
 
     return posts;
 }
+
+std::vector<std::string> PostController::getUserPosts(int userId) {
+    std::vector<std::string> postContents;
+    sqlite3* db = DatabaseManager::getInstance().getDB();
+    sqlite3_stmt* stmt;
+
+    const char* sql = "SELECT Content FROM Posts WHERE User_id = ?;";
+
+    // Prepare the SQL statement
+    if (sqlite3_prepare_v2(db, sql, -1, &stmt, nullptr) != SQLITE_OK) {
+        std::cerr << "Error preparing statement: " << sqlite3_errmsg(db) << std::endl;
+        return postContents;
+    }
+
+    // Bind the User ID parameter
+    sqlite3_bind_int(stmt, 1, userId);
+
+    // Execute the query and fetch results
+    while (sqlite3_step(stmt) == SQLITE_ROW) {
+        const unsigned char* content = sqlite3_column_text(stmt, 0);
+        if (content) {
+            postContents.emplace_back(reinterpret_cast<const char*>(content));
+        }
+    }
+
+    // Finalize the statement
+    sqlite3_finalize(stmt);
+
+    return postContents;
+}

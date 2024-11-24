@@ -9,5 +9,5 @@
 class PostController {
 public:
     std::vector<std::string> getFriendPosts(int userId); // 查询好友帖子的方法
-
+    std::vector<std::string> getUserPosts(int userId);
 };

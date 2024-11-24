@@ -6,6 +6,7 @@
 #include "controller/PostController.h"
 #include "controller/FriendController.h"
 #include "controller/ProfileController.h"
+#include "model/PostModel.h"
 
 
 
@@ -106,7 +107,7 @@ int main() {
                 break;
             }
             case 5: { // New option for viewing user's posts
-                // test1
+                // test123
                 PostController postController;
                 int userId;
                 std::cout << "Please enter the User ID: ";
