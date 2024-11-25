@@ -54,14 +54,12 @@ add_executable(snackmap main.cpp
 target_link_libraries(snackmap sqlite3)
 
 find_package(Qt5 REQUIRED COMPONENTS Widgets)
-target_link_libraries(mytarget PRIVATE Qt5::Widgets)
-add_executable(Snackmap main.cpp)
-target_include_directories(Snackmap PRIVATE
+#target_link_libraries(snackmap PRIVATE Qt5::Widgets)
+target_include_directories(snackmap PRIVATE
         "/usr/include/x86_64-linux-gnu/qt5",
         "/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
         "/usr/include/x86_64-linux-gnu/qt5/QtGui",
         "/usr/include/x86_64-linux-gnu/qt5/QtCore")
-target_link_libraries(SnackMap Qt5::Widgets)
 #find_package(OpenSSL REQUIRED)
 #include_directories(${OPENSSL_INCLUDE_DIR}
 #        ${CMAKE_SOURCE_DIR}/model)
