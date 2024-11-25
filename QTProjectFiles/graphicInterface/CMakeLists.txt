@@ -30,6 +30,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         editprofile.h editprofile.cpp editprofile.ui
         explorewindow.h explorewindow.cpp explorewindow.ui
         loginpage.h loginpage.cpp loginpage.ui
+        ../../../../createpost.cpp ../../../../createpost.h ../../../../createpost.ui
+        ../../../../createpost.cpp
+
 
 
     )

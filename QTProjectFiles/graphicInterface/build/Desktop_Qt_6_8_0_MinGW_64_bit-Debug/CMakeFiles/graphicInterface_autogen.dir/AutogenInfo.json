@@ -307,6 +307,12 @@
 			"MU",
 			"EWIEGA46WW/moc_profilewindow.cpp",
 			null
+		],
+		[
+			"C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/createpost.h",
+			"MU",
+			"WROOTE52HI/moc_createpost.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -417,6 +423,11 @@
 		],
 		[
 			"C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/profilewindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/createpost.cpp",
 			"MU",
 			null
 		]

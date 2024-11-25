@@ -6,3 +6,4 @@
 #include "EWIEGA46WW/moc_mainwindow.cpp"
 #include "EWIEGA46WW/moc_postswindow.cpp"
 #include "EWIEGA46WW/moc_profilewindow.cpp"
+#include "WROOTE52HI/moc_createpost.cpp"

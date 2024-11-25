@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-9f6ac023c28acd0541a6.json",
+					"jsonFile" : "directory-.-Debug-b933813b90f748d9da4d.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "graphicInterface::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-graphicInterface-Debug-8d5b3b00b111e5756a23.json",
+					"jsonFile" : "target-graphicInterface-Debug-1abf77b5f6d2361b6c8d.json",
 					"name" : "graphicInterface",
 					"projectIndex" : 0
 				},
