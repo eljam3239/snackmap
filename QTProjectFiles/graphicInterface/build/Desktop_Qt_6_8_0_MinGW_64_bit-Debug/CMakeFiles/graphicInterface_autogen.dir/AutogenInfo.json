@@ -285,6 +285,12 @@
 			null
 		],
 		[
+			"C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/loginpage.h",
+			"MU",
+			"EWIEGA46WW/moc_loginpage.cpp",
+			null
+		],
+		[
 			"C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -386,6 +392,11 @@
 		],
 		[
 			"C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/friendswindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/loginpage.cpp",
 			"MU",
 			null
 		],

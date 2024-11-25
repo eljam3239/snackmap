@@ -29,6 +29,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         friendswindow.h friendswindow.cpp friendswindow.ui
         editprofile.h editprofile.cpp editprofile.ui
         explorewindow.h explorewindow.cpp explorewindow.ui
+        loginpage.h loginpage.cpp loginpage.ui
 
 
     )
