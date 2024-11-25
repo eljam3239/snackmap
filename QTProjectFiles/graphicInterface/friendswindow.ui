@@ -386,7 +386,7 @@ background-color: white;
                  <rect>
                   <x>-3</x>
                   <y>0</y>
-                  <width>91</width>
+                  <width>101</width>
                   <height>81</height>
                  </rect>
                 </property>
@@ -536,7 +536,7 @@ background-color: white;
                    <rect>
                     <x>-3</x>
                     <y>0</y>
-                    <width>91</width>
+                    <width>101</width>
                     <height>81</height>
                    </rect>
                   </property>
@@ -648,7 +648,7 @@ background-color: white;
                    <rect>
                     <x>0</x>
                     <y>0</y>
-                    <width>91</width>
+                    <width>101</width>
                     <height>81</height>
                    </rect>
                   </property>
@@ -760,7 +760,7 @@ background-color: white;
                    <rect>
                     <x>0</x>
                     <y>0</y>
-                    <width>91</width>
+                    <width>101</width>
                     <height>81</height>
                    </rect>
                   </property>
@@ -908,7 +908,7 @@ background-color: white;
                    <rect>
                     <x>0</x>
                     <y>0</y>
-                    <width>91</width>
+                    <width>101</width>
                     <height>81</height>
                    </rect>
                   </property>
@@ -971,7 +971,7 @@ background-color: white;
                  <item>
                   <widget class="QFrame" name="frame_28">
                    <property name="styleSheet">
-                    <string notr="true">#frame_25 {
+                    <string notr="true">#frame_28 {
     background-color: lightblue;
 }</string>
                    </property>
@@ -1036,17 +1036,17 @@ background-color: white;
                         </size>
                        </property>
                        <property name="styleSheet">
-                        <string notr="true">#pic1_25{
-background-color: white;
+                        <string notr="true">#pic1_28{
+background-color: lightblue;
 }</string>
                        </property>
-                       <widget class="QLabel" name="label_93">
+                       <widget class="QLabel" name="label_10">
                         <property name="geometry">
                          <rect>
                           <x>0</x>
                           <y>0</y>
                           <width>91</width>
-                          <height>81</height>
+                          <height>71</height>
                          </rect>
                         </property>
                         <property name="text">
@@ -1244,7 +1244,7 @@ background-color: white;
                    <rect>
                     <x>0</x>
                     <y>0</y>
-                    <width>91</width>
+                    <width>101</width>
                     <height>81</height>
                    </rect>
                   </property>
