@@ -9,7 +9,9 @@
                 "/usr/include/x86_64-linux-gnu/qt5/QtGui",
                 "/usr/include/x86_64-linux-gnu/qt5/QtCore"
             ],
-            "defines": [],
+            "defines": [
+                "QT_WIDGETS_LIB"
+            ],
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "c17",
             "cppStandard": "gnu++17",
