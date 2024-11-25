@@ -8,8 +8,9 @@
 
 class PostController {
 public:
-    std::vector<std::string> getFriendPosts(int userId); // 查询好友帖子的方法
+    std::vector<std::vector<std::string>> getFriendPosts(int userId);  // 查询好友帖子的方法
     std::vector<std::string> getUserPosts(int userId);
     int likePost(int postId, int userId);
+    void printPost(int postId);
     int getLikes(int postId);
 };
