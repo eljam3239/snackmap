@@ -260,6 +260,13 @@ background-color: white;
              </property>
             </widget>
            </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_2">
+             <property name="text">
+              <string>Upload</string>
+             </property>
+            </widget>
+           </item>
           </layout>
          </widget>
         </widget>
