@@ -21,6 +21,7 @@ private:
     void openProfileWindow();
     void openFriendsWindow();
     void openEditProfile();
+    void openExploreWindow();
 };
 
 #endif // PROFILEWINDOW_H

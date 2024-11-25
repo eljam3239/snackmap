@@ -50,7 +50,7 @@ background-color: white;
         </size>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(97, 148, 238);
+        <string notr="true">background-color: lightblue;
 
 
 </string>

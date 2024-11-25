@@ -9,7 +9,7 @@ PostsWindow::PostsWindow(QWidget *parent)
 
 {
     ui->setupUi(this);
-    connect(ui->PostsButton_2, &QPushButton::clicked, this, &PostsWindow::openPostsWindow);
+    connect(ui->PostsButton_2, &QPushButton::clicked, this, &PostsWindow::openExploreWindow);
     connect(ui->ProfileButton_2, &QPushButton::clicked, this, &PostsWindow::openProfileWindow);
     connect(ui->FriendsButton_2, &QPushButton::clicked, this, &PostsWindow::openFriendsWindow);
     connect(ui->exploreButton, &QPushButton::clicked, this, &PostsWindow::openExploreWindow);

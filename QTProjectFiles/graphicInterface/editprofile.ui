@@ -23,7 +23,7 @@ background-color: rgb(255, 255, 255); /* RGB color */
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>321</width>
+     <width>322</width>
      <height>734</height>
     </rect>
    </property>
@@ -37,7 +37,7 @@ background-color: rgb(255, 255, 255); /* RGB color */
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(97, 148, 238);
+       <string notr="true">background-color: lightblue;
 
 
 </string>
@@ -107,6 +107,30 @@ background-color: white;
      </widget>
     </item>
     <item>
+     <widget class="QToolButton" name="toolButton">
+      <property name="minimumSize">
+       <size>
+        <width>320</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">   color: Black;               
+    font-size: 14px;            /* Adjust font size */
+</string>
+      </property>
+      <property name="text">
+       <string>Change Picture</string>
+      </property>
+      <property name="autoRepeatDelay">
+       <number>297</number>
+      </property>
+      <property name="toolButtonStyle">
+       <enum>Qt::ToolButtonStyle::ToolButtonTextOnly</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
      <widget class="QWidget" name="horizontalWidget_3" native="true">
       <property name="maximumSize">
        <size>
@@ -114,40 +138,8 @@ background-color: white;
         <height>20</height>
        </size>
       </property>
-      <layout class="QHBoxLayout" name="horizontalLayout_10">
-       <item>
-        <widget class="QToolButton" name="toolButton">
-         <property name="styleSheet">
-          <string notr="true">   color: Black;               
-    font-size: 14px;            /* Adjust font size */
-</string>
-         </property>
-         <property name="text">
-          <string>Change Picture</string>
-         </property>
-         <property name="toolButtonStyle">
-          <enum>Qt::ToolButtonStyle::ToolButtonTextOnly</enum>
-         </property>
-        </widget>
-       </item>
-      </layout>
+      <layout class="QHBoxLayout" name="horizontalLayout_10"/>
      </widget>
-    </item>
-    <item>
-     <spacer name="verticalSpacer_7">
-      <property name="orientation">
-       <enum>Qt::Orientation::Vertical</enum>
-      </property>
-      <property name="sizeType">
-       <enum>QSizePolicy::Policy::Fixed</enum>
-      </property>
-      <property name="sizeHint" stdset="0">
-       <size>
-        <width>20</width>
-        <height>20</height>
-       </size>
-      </property>
-     </spacer>
     </item>
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout_11">

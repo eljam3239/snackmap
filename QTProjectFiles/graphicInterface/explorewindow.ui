@@ -100,7 +100,7 @@ background-color: white;
               </font>
              </property>
              <property name="text">
-              <string>POSTS</string>
+              <string>ADD POST</string>
              </property>
             </widget>
            </item>
@@ -180,7 +180,7 @@ background-color:#E2F3F5 ;
               <rect>
                <x>0</x>
                <y>0</y>
-               <width>101</width>
+               <width>136</width>
                <height>121</height>
               </rect>
              </property>
@@ -292,7 +292,7 @@ background-color: white;
              <rect>
               <x>0</x>
               <y>0</y>
-              <width>101</width>
+              <width>136</width>
               <height>121</height>
              </rect>
             </property>
@@ -403,7 +403,7 @@ background-color: white;
              <rect>
               <x>0</x>
               <y>0</y>
-              <width>101</width>
+              <width>136</width>
               <height>121</height>
              </rect>
             </property>

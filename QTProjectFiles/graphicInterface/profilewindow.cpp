@@ -3,13 +3,14 @@
 #include "postswindow.h"
 #include "friendswindow.h"
 #include "editprofile.h"
+#include "explorewindow.h"
 
 ProfileWindow::ProfileWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::ProfileWindow)
 {
     ui->setupUi(this);
-    connect(ui->PostsButton, &QPushButton::clicked, this, &ProfileWindow::openPostsWindow);
+    connect(ui->PostsButton, &QPushButton::clicked, this, &ProfileWindow::openExploreWindow);
     connect(ui->ProfileButton, &QPushButton::clicked, this, &ProfileWindow::openProfileWindow);
     connect(ui->FriendsButton, &QPushButton::clicked, this, &ProfileWindow::openFriendsWindow);
     connect(ui->pushButton_4, &QPushButton::clicked, this, &ProfileWindow::openEditProfile);
@@ -60,3 +61,14 @@ void ProfileWindow::openEditProfile()
     // Close the current window
     this->close();
 }
+
+void ProfileWindow::openExploreWindow()
+{
+    // Create and show the second window
+    ExploreWindow *editProfileWindow = new ExploreWindow();
+    editProfileWindow->show();
+
+    // Close the current window
+    this->close();
+}
+

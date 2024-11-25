@@ -10,7 +10,7 @@ ExploreWindow::ExploreWindow(QWidget *parent)
     , ui(new Ui::ExploreWindow)
 {
     ui->setupUi(this);
-    connect(ui->PostsButton_2, &QPushButton::clicked, this, &ExploreWindow::openPostsWindow);
+    connect(ui->PostsButton_2, &QPushButton::clicked, this, &ExploreWindow::openExploreWindow);
     connect(ui->ProfileButton_2, &QPushButton::clicked, this, &ExploreWindow::openProfileWindow);
     connect(ui->FriendsButton_2, &QPushButton::clicked, this, &ExploreWindow::openFriendsWindow);
     connect(ui->postsTopButton, &QPushButton::clicked, this, &ExploreWindow::openPostsWindow);
@@ -46,6 +46,16 @@ void ExploreWindow::openFriendsWindow()
 {
     // Create and show the second window
     FriendsWindow *friendsWindow = new FriendsWindow();
+    friendsWindow->show();
+
+    // Close the current window
+    this->close();
+}
+
+void ExploreWindow::openExploreWindow()
+{
+    // Create and show the second window
+    ExploreWindow *friendsWindow = new ExploreWindow();
     friendsWindow->show();
 
     // Close the current window
