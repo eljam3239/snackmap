@@ -6,6 +6,7 @@
 #include "controller/PostController.h"
 #include "controller/FriendController.h"
 #include "controller/ProfileController.h"
+#include <QApplication>
 
 int main() {
     // char cwd[1024]; // record the current working directory
@@ -124,7 +125,7 @@ int main() {
             case 5: { // New option for viewing user's posts
                 // test1
                 PostController postController;
-                PostModel postModel();
+                
                 int userId;
                 std::cout << "Please enter the User ID: ";
                 std::cin >> userId;
