@@ -551,8 +551,6 @@ graphicInterface_autogen/timestamp: \
 	C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/profilewindow.cpp \
 	C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/profilewindow.h \
 	C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/ressources.qrc \
-	C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/createpost.cpp \
-	C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/createpost.h \
 	C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/editprofile.ui \
 	C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/explorewindow.ui \
 	C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/friendswindow.ui \
@@ -560,5 +558,4 @@ graphicInterface_autogen/timestamp: \
 	C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/mainwindow.ui \
 	C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/postswindow.ui \
 	C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/Project/snackmap/QTProjectFiles/graphicInterface/profilewindow.ui \
-	C:/Users/hawke/OneDrive/Desktop/CMPE320_Folder/createpost.ui \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe
