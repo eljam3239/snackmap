@@ -7,8 +7,17 @@
 #include "controller/FriendController.h"
 #include "controller/ProfileController.h"
 #include <QApplication>
+#include "QTProjectFiles/graphicInterface/loginpage.h"
+#include "QTProjectFiles/graphicInterface/mainwindow.h"
+#include "QTProjectFiles/graphicInterface/postswindow.h"
+#include "QTProjectFiles/graphicInterface/profilewindow.h"
+#include "QTProjectFiles/graphicInterface/friendswindow.h"
+#include "QTProjectFiles/graphicInterface/explorewindow.h"
+#include "QTProjectFiles/graphicInterface/editprofile.h"
 
-int main() {
+
+
+int main(int argc, char *argv[]) {
     // char cwd[1024]; // record the current working directory
     // if (getcwd(cwd, sizeof(cwd)) != nullptr) {
     //     std::cout << "current working directory: " << cwd << std::endl;
@@ -17,6 +26,13 @@ int main() {
 
     // start
     // initialize database
+
+    QApplication a(argc, argv);
+    loginPage w; //switch this to MainWindow for template file
+    w.show();
+    return a.exec();
+
+    /*
     DatabaseManager& dbManager = DatabaseManager::getInstance();
     dbManager.initializeDatabase();
     std::cout << "Database initialization completed." << std::endl;
@@ -164,4 +180,6 @@ int main() {
     // }
 
     return 0;
+    */
+    
 }
