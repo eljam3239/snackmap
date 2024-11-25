@@ -17,6 +17,7 @@ public:
 
 private:
     Ui::loginPage *ui;
+    void openExploreWindow();
 };
 
 #endif // LOGINPAGE_H

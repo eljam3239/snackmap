@@ -134,7 +134,7 @@ background-color: lightblue;
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="pushButton">
+          <widget class="QPushButton" name="enterButton">
            <property name="text">
             <string>Enter</string>
            </property>
