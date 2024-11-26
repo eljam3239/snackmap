@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.28)
 project(snackmap)
 
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+
 set(CMAKE_CXX_STANDARD 14)
 
 # add sqlite3 library
@@ -46,14 +50,24 @@ add_executable(snackmap main.cpp
         QTProjectFiles/graphicInterface/editprofile.h
         QTProjectFiles/graphicInterface/editprofile.cpp
         QTProjectFiles/graphicInterface/editprofile.ui
+        QTProjectFiles/graphicInterface/explorewindow.cpp
+        QTProjectFiles/graphicInterface/explorewindow.h
+        QTProjectFiles/graphicInterface/explorewindow.ui
 
 )
 #componentTesting/loginc.cpp)
 
 # add link library
-target_link_libraries(snackmap sqlite3)
 
-find_package(Qt5 REQUIRED COMPONENTS Widgets)
+
+find_package(Qt5 REQUIRED COMPONENTS Widgets Core Gui)
+
+target_link_libraries(snackmap 
+        sqlite3 
+        Qt5::Widgets
+        Qt5::Core 
+        Qt5::Gui
+)
 #target_link_libraries(snackmap PRIVATE Qt5::Widgets)
 target_include_directories(snackmap PRIVATE
         "/usr/include/x86_64-linux-gnu/qt5",

@@ -1,4 +1,8 @@
-/Users/lyu/Desktop/CISC320Git/snackmap/cmake-build-debug/CMakeFiles/sqlite3.dir
-/Users/lyu/Desktop/CISC320Git/snackmap/cmake-build-debug/CMakeFiles/snackmap.dir
-/Users/lyu/Desktop/CISC320Git/snackmap/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/lyu/Desktop/CISC320Git/snackmap/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/eli/repos/snackmap/cmake-build-debug/CMakeFiles/sqlite3.dir
+/home/eli/repos/snackmap/cmake-build-debug/CMakeFiles/snackmap.dir
+/home/eli/repos/snackmap/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/eli/repos/snackmap/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/eli/repos/snackmap/cmake-build-debug/CMakeFiles/sqlite3_autogen_timestamp_deps.dir
+/home/eli/repos/snackmap/cmake-build-debug/CMakeFiles/sqlite3_autogen.dir
+/home/eli/repos/snackmap/cmake-build-debug/CMakeFiles/snackmap_autogen_timestamp_deps.dir
+/home/eli/repos/snackmap/cmake-build-debug/CMakeFiles/snackmap_autogen.dir
