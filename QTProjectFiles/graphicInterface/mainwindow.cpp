@@ -2,7 +2,8 @@
 #include "postswindow.h"
 #include "profilewindow.h"
 #include "friendswindow.h"
-#include "./ui_mainwindow.h"
+#include "ui_mainwindow.h"
+
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)

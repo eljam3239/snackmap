@@ -5,6 +5,9 @@ set(CMAKE_CXX_STANDARD 14)
 
 # add sqlite3 library
 add_library(sqlite3 STATIC lib/sqlite3.c)
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC")
+
 # set include directory
 target_include_directories(sqlite3 PUBLIC ${CMAKE_SOURCE_DIR}/lib)
 # add project source file
@@ -25,27 +28,24 @@ add_executable(snackmap main.cpp
         controller/LoginController.cpp
         Insert_data_test.cpp
         model/PostModel.cpp
-        QTProjectFiles/graphicinterface/mainwindow.cpp
-        QTProjectFiles/graphicinterface/mainwindow.h
-        QTProjectFiles/graphicinterface/mainwindow.ui
-        QTProjectFiles/graphicinterface/loginwindow.cpp
-        QTProjectFiles/graphicinterface/loginwindow.h
-        QTProjectFiles/graphicinterface/loginwindow.ui
-        QTProjectFiles/graphicinterface/registerwindow.cpp
-        QTProjectFiles/graphicinterface/registerwindow.h
-        QTProjectFiles/graphicinterface/registerwindow.ui
-        QTProjectFiles/graphicinterface/profilewindow.cpp
-        QTProjectFiles/graphicinterface/profilewindow.h
-        QTProjectFiles/graphicinterface/profilewindow.ui
-        QTProjectFiles/graphicinterface/friendwindow.cpp
-        QTProjectFiles/graphicinterface/friendwindow.h
-        QTProjectFiles/graphicinterface/friendwindow.ui
-        QTProjectFiles/graphicinterface/postwindow.cpp
-        QTProjectFiles/graphicinterface/postwindow.h
-        QTProjectFiles/graphicinterface/postwindow.ui
-        QTProjectFiles/graphicinterface/editprofile.h
-        QTProjectFiles/graphicinterface/editprofile.cpp
-        QTProjectFiles/graphicinterface/editprofile.ui
+        QTProjectFiles/graphicInterface/mainwindow.cpp
+        QTProjectFiles/graphicInterface/mainwindow.h
+        QTProjectFiles/graphicInterface/mainwindow.ui
+        QTProjectFiles/graphicInterface/loginpage.cpp
+        QTProjectFiles/graphicInterface/loginpage.h
+        QTProjectFiles/graphicInterface/loginpage.ui
+        QTProjectFiles/graphicInterface/profilewindow.cpp
+        QTProjectFiles/graphicInterface/profilewindow.h
+        QTProjectFiles/graphicInterface/profilewindow.ui
+        QTProjectFiles/graphicInterface/friendswindow.cpp
+        QTProjectFiles/graphicInterface/friendswindow.h
+        QTProjectFiles/graphicInterface/friendswindow.ui
+        QTProjectFiles/graphicInterface/postswindow.cpp
+        QTProjectFiles/graphicInterface/postswindow.h
+        QTProjectFiles/graphicInterface/postswindow.ui
+        QTProjectFiles/graphicInterface/editprofile.h
+        QTProjectFiles/graphicInterface/editprofile.cpp
+        QTProjectFiles/graphicInterface/editprofile.ui
 
 )
 #componentTesting/loginc.cpp)
@@ -67,3 +67,6 @@ target_include_directories(snackmap PRIVATE
 
 # Set build type explicitly
 set(CMAKE_BUILD_TYPE Debug)
+
+
+

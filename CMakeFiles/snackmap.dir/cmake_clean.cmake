@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/snackmap.dir/Insert_data_test.cpp.o"
+  "CMakeFiles/snackmap.dir/Insert_data_test.cpp.o.d"
+  "CMakeFiles/snackmap.dir/QTProjectFiles/graphicInterface/editprofile.cpp.o"
+  "CMakeFiles/snackmap.dir/QTProjectFiles/graphicInterface/editprofile.cpp.o.d"
+  "CMakeFiles/snackmap.dir/QTProjectFiles/graphicInterface/friendswindow.cpp.o"
+  "CMakeFiles/snackmap.dir/QTProjectFiles/graphicInterface/friendswindow.cpp.o.d"
+  "CMakeFiles/snackmap.dir/QTProjectFiles/graphicInterface/loginpage.cpp.o"
+  "CMakeFiles/snackmap.dir/QTProjectFiles/graphicInterface/loginpage.cpp.o.d"
+  "CMakeFiles/snackmap.dir/QTProjectFiles/graphicInterface/mainwindow.cpp.o"
+  "CMakeFiles/snackmap.dir/QTProjectFiles/graphicInterface/mainwindow.cpp.o.d"
+  "CMakeFiles/snackmap.dir/QTProjectFiles/graphicInterface/postswindow.cpp.o"
+  "CMakeFiles/snackmap.dir/QTProjectFiles/graphicInterface/postswindow.cpp.o.d"
+  "CMakeFiles/snackmap.dir/QTProjectFiles/graphicInterface/profilewindow.cpp.o"
+  "CMakeFiles/snackmap.dir/QTProjectFiles/graphicInterface/profilewindow.cpp.o.d"
+  "CMakeFiles/snackmap.dir/controller/FriendController.cpp.o"
+  "CMakeFiles/snackmap.dir/controller/FriendController.cpp.o.d"
+  "CMakeFiles/snackmap.dir/controller/LoginController.cpp.o"
+  "CMakeFiles/snackmap.dir/controller/LoginController.cpp.o.d"
+  "CMakeFiles/snackmap.dir/controller/PostController.cpp.o"
+  "CMakeFiles/snackmap.dir/controller/PostController.cpp.o.d"
+  "CMakeFiles/snackmap.dir/controller/ProfileController.cpp.o"
+  "CMakeFiles/snackmap.dir/controller/ProfileController.cpp.o.d"
+  "CMakeFiles/snackmap.dir/controller/UserController.cpp.o"
+  "CMakeFiles/snackmap.dir/controller/UserController.cpp.o.d"
+  "CMakeFiles/snackmap.dir/main.cpp.o"
+  "CMakeFiles/snackmap.dir/main.cpp.o.d"
+  "CMakeFiles/snackmap.dir/model/DatabaseManager.cpp.o"
+  "CMakeFiles/snackmap.dir/model/DatabaseManager.cpp.o.d"
+  "CMakeFiles/snackmap.dir/model/PostModel.cpp.o"
+  "CMakeFiles/snackmap.dir/model/PostModel.cpp.o.d"
+  "CMakeFiles/snackmap.dir/model/UserModel.cpp.o"
+  "CMakeFiles/snackmap.dir/model/UserModel.cpp.o.d"
+  "snackmap"
+  "snackmap.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/snackmap.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
